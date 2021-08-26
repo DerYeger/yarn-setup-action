@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DerYeger/yarn-setup-action/compare/v1.0.0...v1.0.1) (2021-08-26)
+
+
+### Bug Fixes
+
+* **action:** update descriptions ([2866f7a](https://github.com/DerYeger/yarn-setup-action/commit/2866f7ac5ce86c12dd1113063236e37287a90ed0))
+
 # 1.0.0 (2021-08-26)
 
 
