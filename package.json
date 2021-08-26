@@ -1,7 +1,7 @@
 {
   "name": "yarn-setup-action",
   "version": "1.0.0",
-  "description": "GitHub Action for setting up a Yarn environment. Performs a checkout and installs dependencies.",
+  "description": "GitHub Action for setting up a Yarn environment. Caches dependencies for reduced execution times.",
   "repository": "https://github.com/DerYeger/yarn-setup-action.git",
   "author": "Jan Müller <janmueller3698@gmail.com>",
   "license": "MIT",
