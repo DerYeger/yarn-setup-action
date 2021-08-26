@@ -1,0 +1,15 @@
+{
+  "name": "yarn-setup-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for setting up a Yarn environment. Performs a checkout and installs dependencies.",
+  "repository": "https://github.com/DerYeger/yarn-setup.git",
+  "author": "Jan Müller <janmueller3698@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "pretty": "prettier --write \"./**/*.{js,json,html,scss,ts,vue,yml}\""
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
