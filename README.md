@@ -18,7 +18,7 @@ steps:
   - name: Yarn setup
     uses: DerYeger/yarn-setup-action@master
     with:
-      node_version: 16
+      node-version: 16
 ```
 
 ## License
