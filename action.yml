@@ -1,6 +1,6 @@
 name: 'Yarn Setup'
 description: 'GitHub Action for setting up a Yarn environment. Performs a checkout and installs dependencies.'
-authorr: 'DerYeger'
+author: 'DerYeger'
 branding:
   icon: 'package'
   color: 'blue'
