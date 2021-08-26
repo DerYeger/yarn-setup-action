@@ -10,6 +10,11 @@ inputs:
     description: “Node version to use for the installation process”
     required: true
 
+outputs:
+  cache-hit:
+    description: 'Indicates a cache hit'
+    value: ${{ steps.node-cache.outputs.cache-hit }}
+
 runs:
   using: 'composite'
   steps:
