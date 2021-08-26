@@ -1,0 +1,32 @@
+name: 'Yarn Setup'
+description: 'GitHub Action for setting up a Yarn environment. Performs a checkout and installs dependencies.'
+authorr: 'DerYeger'
+branding:
+  icon: 'package'
+  color: 'blue'
+
+inputs:
+  node_version:
+    description: “Node version to use for the installation process”
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Setup Node.js
+      uses: actions/setup-node@v2.4.0
+      with:
+        node-version: ${{inputs.node_version}}
+    - name: Cache node_modules
+      id: node-cache
+      uses: actions/cache@v2
+      with:
+        path: ./node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('./yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install dependencies
+      if: steps.node-cache.outputs.cache-hit != 'true'
+      run: yarn install
