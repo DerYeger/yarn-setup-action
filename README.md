@@ -9,7 +9,7 @@
 - 🔽 Performs a **checkout** using [actions/checkout](https://github.com/actions/checkout).
 - ⚒️ Sets up a **Node.js enviroment** using the specified `node_version`.
 - 💽 **Caches** and retrieves `node_modules` for reduced execution time.
-- ⌛ Runs `yarn install` if there was no cache hit.
+- ⌛ Runs `yarn install` with the cached `node_modules`.
 
 ## Usage
 
