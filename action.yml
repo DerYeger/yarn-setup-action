@@ -13,7 +13,7 @@ inputs:
 outputs:
   cache-hit:
     description: 'Indicates a cache hit'
-    value: ${{ steps.node-cache.outputs.cache-hit }}
+    value: ${{ steps.cache.outputs.cache-hit }}
 
 runs:
   using: 'composite'
@@ -25,7 +25,7 @@ runs:
       with:
         node-version: ${{inputs.node_version}}
     - name: Cache ~/.cache
-      id: global-cache
+      id: cache
       uses: actions/cache@v2
       with:
         path: ~/.cache
