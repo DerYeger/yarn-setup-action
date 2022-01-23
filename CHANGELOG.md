@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/DerYeger/yarn-setup-action/compare/v1.0.1...v2.0.0) (2022-01-23)
+
+
+### Bug Fixes
+
+* use correct job id ([d6234c7](https://github.com/DerYeger/yarn-setup-action/commit/d6234c75789d6193a29a4b991d701e90f8ff2a6d))
+
+
+### Features
+
+* cache `~/.cache` ([70a9346](https://github.com/DerYeger/yarn-setup-action/commit/70a9346f0576d57c080e992a38e78763b3328a17))
+
+
+### BREAKING CHANGES
+
+* Use `--frozen-lockfile`
+
 ## [1.0.1](https://github.com/DerYeger/yarn-setup-action/compare/v1.0.0...v1.0.1) (2021-08-26)
 
 
