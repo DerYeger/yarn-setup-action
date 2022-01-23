@@ -24,14 +24,12 @@ runs:
       uses: actions/setup-node@v2.5.1
       with:
         node-version: ${{inputs.node_version}}
-    - name: Cache node_modules
-      id: node-cache
+    - name: Cache ~/.cache
+      id: global-cache
       uses: actions/cache@v2
       with:
-        path: ./node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('./yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-    - name: Install dependencies
-      run: yarn install
+        path: ~/.cache
+        key: ${{ runner.os }}-cache-${{ hashFiles('./yarn.lock') }}
+    - name: Install
+      run: yarn install --frozen-lockfile
       shell: bash
