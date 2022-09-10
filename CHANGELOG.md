@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.0...v2.0.1) (2022-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update cycjimmy/semantic-release-action action to v3.1.1 ([72bca80](https://github.com/DerYeger/yarn-setup-action/commit/72bca801f42ef5abd5abf8f3c22e0dad6b03d2ca))
+
 # [2.0.0](https://github.com/DerYeger/yarn-setup-action/compare/v1.0.1...v2.0.0) (2022-01-23)
 
 
