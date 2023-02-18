@@ -1,3 +1,10 @@
+## [2.0.8](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.7...v2.0.8) (2023-02-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.8.4 ([5bc7721](https://github.com/DerYeger/yarn-setup-action/commit/5bc772197529e02486eb540024fe0d2766bc7124))
+
 ## [2.0.7](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.6...v2.0.7) (2023-01-28)
 
 
