@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.8...v2.0.9) (2023-03-25)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#37](https://github.com/DerYeger/yarn-setup-action/issues/37)) ([8e2882b](https://github.com/DerYeger/yarn-setup-action/commit/8e2882b88d8542ff8a7c0d818b7fa372ebd40b05))
+
 ## [2.0.8](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.7...v2.0.8) (2023-02-18)
 
 
