@@ -1,6 +1,6 @@
 {
   "name": "yarn-setup-action",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "GitHub Action for setting up a Yarn environment. Caches dependencies for reduced execution times.",
   "repository": "https://github.com/DerYeger/yarn-setup-action.git",
   "author": "Jan Müller <janmueller3698@gmail.com>",
