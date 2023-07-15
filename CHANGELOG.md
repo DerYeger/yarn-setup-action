@@ -1,3 +1,10 @@
+## [2.0.13](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.12...v2.0.13) (2023-07-15)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v3.7.0 ([4278136](https://github.com/DerYeger/yarn-setup-action/commit/4278136d539894caa211f09c1bfe4ade4263b073))
+
 ## [2.0.12](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.11...v2.0.12) (2023-07-15)
 
 
