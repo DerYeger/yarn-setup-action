@@ -23,7 +23,7 @@ runs:
     - name: Setup Node.js
       uses: actions/setup-node@v3.8.1
       with:
-        node-version: ${{inputs.node_version}}
+        node-version: ${{inputs.node-version}}
     - name: Cache ~/.cache
       id: cache
       uses: actions/cache@v3
