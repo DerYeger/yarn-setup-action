@@ -1,3 +1,10 @@
+## [2.0.16](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.15...v2.0.16) (2023-08-21)
+
+
+### Bug Fixes
+
+* reference to node-version parameter when passing to setup-node ([#44](https://github.com/DerYeger/yarn-setup-action/issues/44)) ([60c75db](https://github.com/DerYeger/yarn-setup-action/commit/60c75dbca011869280abda79e34353aae7d60a58))
+
 ## [2.0.15](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.14...v2.0.15) (2023-08-20)
 
 
