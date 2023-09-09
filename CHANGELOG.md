@@ -1,3 +1,10 @@
+## [2.0.19](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.18...v2.0.19) (2023-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update actions/checkout action to v4 ([#48](https://github.com/DerYeger/yarn-setup-action/issues/48)) ([1c12960](https://github.com/DerYeger/yarn-setup-action/commit/1c129603352f5fcef94faac21db912b3bd09339e))
+
 ## [2.0.18](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.17...v2.0.18) (2023-09-03)
 
 
