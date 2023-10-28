@@ -1,3 +1,10 @@
+## [2.0.20](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.19...v2.0.20) (2023-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update actions/setup-node action to v4 ([#49](https://github.com/DerYeger/yarn-setup-action/issues/49)) ([68ac565](https://github.com/DerYeger/yarn-setup-action/commit/68ac565f2640c2eacd740aedc7543e193a35d3c1))
+
 ## [2.0.19](https://github.com/DerYeger/yarn-setup-action/compare/v2.0.18...v2.0.19) (2023-09-09)
 
 
